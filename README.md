@@ -25,5 +25,5 @@ This project uses a data-driven approach to connect the voice of the customer di
 
 The final models achieved an accuracy of up to 79% in predicting price ranges. This demonstrates a strong proof-of-concept for using customer sentiment as a direct input for data-driven pricing and marketing strategies.
 
-*<img width="1446" height="1183" alt="image" src="https://github.com/user-attachments/assets/0cd79e17-9e4f-471c-bf7d-142b5c085beb" />
-*
+<img width="1446" height="1183" alt="image" src="https://github.com/user-attachments/assets/0cd79e17-9e4f-471c-bf7d-142b5c085beb" />
+
