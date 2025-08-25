@@ -1,6 +1,27 @@
-# Predicting-Price-Ranges-of-Amazon-Products
-Abstract 
-This project uses natural language processing (NLP) techniques to analyze customer sentiment from Amazon product reviews to address the problem of declining product sales. The goal is to predict the best pricing tactics to increase an electronics manufacturing and retail company's profitability. 
-The study uses an organized methodology that includes web scraping for data collection, preprocessing the data for text analysis, and producing models with the help of algorithms for linear and random forest regression. Essential techniques like sentiment scoring and n-gram analysis are used to glean insights from customer reviews. 
-Both classification models, Random Forest Classifier (TF-IDF vectorizer) and Logistic Regression (TF-IDF vectorizer) had 72% and 79% accuracy, respectively. The results illustrate practical approaches to product design and marketing that consider customer sentiment and preferences.  This will not only hedge the current problem of decreased sales but also create a new trend of data-based decision-making in Product Management.
+# Amazon Sentiment & Pricing Analysis
+
+> An NLP model that analyzes customer sentiment from Amazon reviews to predict optimal product price ranges, directly linking customer feedback to profitability.
+
+---
+
+### The Business Problem
+
+Companies often struggle to set the right price for their products, leading to declining sales and reduced profitability. It's often difficult to know if negative customer feedback is related to product quality or a perception that the price is too high. This project tackles this uncertainty head-on.
+
+### The Technical Solution
+
+This project uses a data-driven approach to connect the voice of the customer directly to pricing strategy. The end-to-end process included:
+
+1.  **Data Collection:** Web scraping of Amazon electronics reviews.
+2.  **Sentiment Analysis:** Using NLP (TF-IDF) to score customer sentiment.
+3.  **Predictive Modeling:** Building and training classification models (Logistic Regression, Random Forest) to predict the optimal price range for a product based on its review sentiment.
+
+### Tech Stack
+*   **Language:** Python
+*   **Libraries:** Pandas, NumPy, Scikit-learn, NLTK, Matplotlib
+*   **Environment:** Jupyter Notebook
+
+### Key Results
+
+The final models achieved an accuracy of up to 79% in predicting price ranges. This demonstrates a strong proof-of-concept for using customer sentiment as a direct input for data-driven pricing and marketing strategies.
 
